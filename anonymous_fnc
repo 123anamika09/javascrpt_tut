@@ -1,0 +1,28 @@
+fnc without name
+(function(){
+
+//code
+}); 
+//place the anonymous fnc inside the ()   otherwise get syntax error
+// the () makes anonymous fnc as a a=expression that return the fnc as an object...
+
+ the following shows anonymous fnc that shows a message 
+let show = function(){
+console.log("hey");
+};
+show(); 
+// no parenthesis required because we assign the anonymous fnc to show 
+
+
+ // we can often use anonymous fnc as an argument
+setTimeout(function(){
+console.log("executed after 1 sec");
+},1000);
+
+
+
+// immediately invoked function execution 
+if u want to create a fnc & immediatly wwant to use it after declaring  you can declare the anonymous fnc ...
+(function(){
+console.log("hey");
+})(); // call the fnc by adding trailing parenthesis....
