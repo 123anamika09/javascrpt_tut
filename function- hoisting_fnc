@@ -1,0 +1,6 @@
+in js , we can use fnc without declaring it . this features is called hoisting ..
+for eg :
+showMe();  // hoisting example 
+function showMee(){
+console.log("hey");
+}
