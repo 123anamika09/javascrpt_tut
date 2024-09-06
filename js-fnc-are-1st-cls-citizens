@@ -1,0 +1,4 @@
+1st class citizens means you can store function in variables , pass them to other function as an argument ,return them as an another function as values...
+  function add(a,b){
+return a+b;
+} let sum = add;
